@@ -9,7 +9,7 @@
 
 h1 {
   color: var(--headline-color);
-  font-family: "DM Serif Display", serif !important;
+  font-family: "DM Serif Display", serif;
 }
 
 h2 {
@@ -25,3 +25,22 @@ p {
 body {
   background-color: var(--bkgrnd-color);
 }
+
+/* Custom Navbar Colors */
+.navbar-custom {
+  background-color: var(--accent-color: #84a98c);
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav .nav-link {
+  color: var(
+    --body-copy-color: #2f3e46
+  ); /* Replace with your desired text color */
+}
+
+/* .navbar-custom 
+.navbar-toggler-icon {
+    background-color: #ffffff;}  /* Replace with your desired color for the toggler icon  */
+
+/*.navbar-custom 
+.navbar-toggler {
+border-color: #ffffff;} /* Replace with your desired border color for the toggler button */
