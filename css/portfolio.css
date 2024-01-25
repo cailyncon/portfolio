@@ -8,17 +8,19 @@
 }
 
 h1 {
-  color: var(--headline-color);
-  font-family: "DM Serif Display", serif;
+  color: var(--headline-color) !important;
+  font-family: "DM Serif Display", serif !important;
+  margin-top: 40px !important;
 }
 
 h2 {
-  color: var(--secondary-accent-color);
-  font-family: "Nunito Sans", sans-serif;
+  color: var(--secondary-accent-color) !important;
+  font-family: "Nunito Sans", sans-serif !important;
+  font-size: 24px !important;
 }
 
 p {
-  color: var(--body-copy-color);
+  color: var(--body-copy-color) !important;
   font-family: "Nunito Sans", sans-serif;
 }
 
@@ -26,15 +28,22 @@ body {
   background-color: var(--bkgrnd-color) !important;
 }
 
+img {
+  border-radius: 10%;
+}
 /* Custom Navbar Colors */
 .navbar-custom {
   background-color: var(--accent-color);
 }
 
-.navbar-custom .navbar-brand,
+.navbar-brand {
+  font-family: "DM Serif Display", serif !important;
+  color: var(--body-copy-color) !important;
+}
+
 .navbar-custom .navbar-nav .nav-link {
-  color: var(--body-copy-color);
-  font-family: "Nunito Sans", sans-serif; /* Replace with your desired text color */
+  color: var(--body-copy-color) !important;
+  font-family: "Nunito Sans", sans-serif !important; /* Replace with your desired text color */
 }
 
 /* .navbar-custom 
