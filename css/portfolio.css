@@ -31,6 +31,21 @@ body {
 img {
   border-radius: 10%;
 }
+
+.card,
+.card-text {
+  background-color: var(--headline-color) !important;
+  color: var(--bkgrnd-color) !important;
+}
+.card-title {
+  font-family: "DM Serif Display", serif;
+  text-align: left;
+}
+
+.card-text {
+  font-family: "Nunito Sans", sans-serif !important;
+  text-align: left;
+}
 /* Custom Navbar Colors */
 .navbar-custom {
   background-color: var(--accent-color);

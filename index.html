@@ -32,14 +32,22 @@
   </head>
   <body class="text-center">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-custom">
-      <a class="navbar-brand px-4" href="#">Cailyn Connelly Ryan</a>
-
-      <div
-        class="collapse navbar-collapse d-flex justify-content-end px-4"
-        id="navbarTogglerDemo02"
+    <nav class="navbar navbar-expand-lg navbar-custom px-3">
+      <a class="navbar-brand" href="#">Cailyn Connelly Ryan</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
       >
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
           <li class="nav-item active">
             <a class="nav-link" href="#">My Projects</a>
           </li>
@@ -55,11 +63,13 @@
     <!-- Navbar -->
     <h1>Cailyn Connelly Ryan</h1>
     <h2>Front-End Developer based out of Spokane, WA</h2>
-    <img
-      class="img-fluid mx-auto col-3 py-2"
-      src="profpic1.jpg"
-      alt="Picture of me"
-    />
+    <div class="image">
+      <img
+        class="img-fluid mx-auto col-3 py-2"
+        src="profpic1.jpg"
+        alt="Picture of me"
+      />
+    </div>
     <p class="col-8 mx-auto pt-2">
       Lorem sint et nisi irure irure voluptate. Exercitation excepteur culpa
       laboris voluptate laboris commodo sunt deserunt id elit cupidatat qui
@@ -68,6 +78,40 @@
       velit pariatur dolor tempor pariatur incididunt qui ut. Ullamco dolor
       nostrud in irure adipisicing nisi. Voluptate minim anim magna consectetur.
     </p>
+    <div class="card mb-3 mx-auto" style="max-width: 540px">
+      <div class="row no-gutters">
+        <div class="col-md-4 rounded">
+          <img src="https://picsum.photos/600" class="card-img p-2" alt="..." />
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3 mx-auto" style="max-width: 540px">
+      <div class="row no-gutters">
+        <div class="col-md-4 rounded">
+          <img src="https://picsum.photos/600" class="card-img p-2" alt="..." />
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
   <script
     src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
