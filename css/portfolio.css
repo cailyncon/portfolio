@@ -46,6 +46,18 @@ img {
   font-family: "Nunito Sans", sans-serif !important;
   text-align: left;
 }
+
+.btn-custom {
+  border-radius: 14px;
+  border: 1px var(--bkgrnd-color) solid;
+  background: var(--bkgrnd-color);
+  padding: 6px 12px;
+  color: var(--body-copy-color);
+  text-decoration: none;
+  font-family: "Nunito Sans", sans-serif !important;
+  float: left;
+  margin: 2px 0 10px 0;
+}
 /* Custom Navbar Colors */
 .navbar-custom {
   background-color: var(--accent-color);
