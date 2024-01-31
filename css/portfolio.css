@@ -10,6 +10,8 @@
 h1 {
   color: var(--headline-color) !important;
   font-family: "DM Serif Display", serif !important;
+}
+.hero-text {
   margin-top: 40px !important;
 }
 
@@ -21,15 +23,34 @@ h2 {
 
 p {
   color: var(--body-copy-color) !important;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Nunito Sans", sans-serif !important;
 }
 
 body {
   background-color: var(--bkgrnd-color) !important;
 }
 
-img {
-  border-radius: 10%;
+footer {
+  background: var(--accent-color);
+  padding: 40px 0 30px 0;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 40px 0;
+}
+
+.btn-custom-2 {
+  border-radius: 10px;
+  border: 1px var(--accent-color) solid;
+  background: var(--accent-color);
+  padding: 6px 22px;
+  color: var(--body-copy-color);
+  text-decoration: none;
+  font-family: "Nunito Sans", sans-serif !important;
+  float: left;
+  margin: 2px 0 10px 0;
 }
 
 .card,
@@ -47,8 +68,13 @@ img {
   text-align: left;
 }
 
+.feature-projects {
+  display: flex;
+  justify-content: center;
+}
+
 .btn-custom {
-  border-radius: 14px;
+  border-radius: 10px;
   border: 1px var(--bkgrnd-color) solid;
   background: var(--bkgrnd-color);
   padding: 6px 12px;
@@ -58,6 +84,7 @@ img {
   float: left;
   margin: 2px 0 10px 0;
 }
+
 /* Custom Navbar Colors */
 .navbar-custom {
   background-color: var(--accent-color);
