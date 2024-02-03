@@ -73,6 +73,18 @@ footer {
   justify-content: center;
 }
 
+.feature {
+  background-color: var(--secondary-accent-color) !important;
+}
+
+.feature-text h1 {
+  color: var(--accent-color) !important;
+}
+.feature-text h2,
+.feature-text p {
+  color: var(--bkgrnd-color) !important;
+}
+
 .btn-custom {
   border-radius: 10px;
   border: 1px var(--bkgrnd-color) solid;
@@ -85,6 +97,11 @@ footer {
   margin: 2px 0 10px 0;
 }
 
+label {
+  font-family: "Nunito Sans", sans-serif !important;
+  font-size: 18px;
+  padding: 4px 0;
+}
 /* Custom Navbar Colors */
 .navbar-custom {
   background-color: var(--accent-color);
