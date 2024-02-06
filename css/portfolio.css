@@ -102,6 +102,7 @@ label {
   font-size: 18px;
   padding: 4px 0;
 }
+
 /* Custom Navbar Colors */
 .navbar-custom {
   background-color: var(--accent-color);
