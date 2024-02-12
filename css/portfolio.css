@@ -97,6 +97,11 @@ footer {
   margin: 2px 0 10px 0;
 }
 
+.vert {
+  display: flex;
+  align-items: center;
+}
+
 label {
   font-family: "Nunito Sans", sans-serif !important;
   font-size: 18px;
